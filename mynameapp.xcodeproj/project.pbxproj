@@ -412,6 +412,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = mynameapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = git.mynameapp;
@@ -424,6 +426,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = mynameapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = git.mynameapp;
@@ -505,6 +509,7 @@
 				D8E1AB261E8B8AC60002FC52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8E1AB271E8B8AC60002FC52 /* Build configuration list for PBXNativeTarget "mynameappTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				D8E1AB291E8B8AC60002FC52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8E1AB2A1E8B8AC60002FC52 /* Build configuration list for PBXNativeTarget "mynameappUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				D8E1AB2C1E8B8AC60002FC52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
