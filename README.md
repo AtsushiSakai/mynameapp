@@ -1,0 +1,2 @@
+# mynameapp
+mynameapp with swift
