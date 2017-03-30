@@ -34,6 +34,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fHi-mS-Xzp">
                                         <rect key="frame" x="0.0" y="0.0" width="36" height="30"/>
                                         <state key="normal" title="Send"/>
+                                        <connections>
+                                            <segue destination="A7Q-ku-xUg" kind="show" identifier="showResult" id="c4J-ag-OIv"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -53,6 +56,45 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1056.8" y="122.78860569715144"/>
+        </scene>
+        <!--Result-->
+        <scene sceneID="YVg-q3-mH4">
+            <objects>
+                <viewController id="A7Q-ku-xUg" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4OX-gb-skW"/>
+                        <viewControllerLayoutGuide type="bottom" id="jc2-Rg-orc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9mf-3j-puD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your score is ..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EQs-Gq-4hK">
+                                <rect key="frame" x="129" y="243" width="117" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WzP-Dj-OV3">
+                                <rect key="frame" x="133" y="294" width="109" height="78"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="65"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="EQs-Gq-4hK" firstAttribute="centerX" secondItem="9mf-3j-puD" secondAttribute="centerX" id="8Kl-cF-Aut"/>
+                            <constraint firstItem="WzP-Dj-OV3" firstAttribute="top" secondItem="EQs-Gq-4hK" secondAttribute="bottom" constant="30" id="KFG-zS-pjB"/>
+                            <constraint firstItem="WzP-Dj-OV3" firstAttribute="centerY" secondItem="9mf-3j-puD" secondAttribute="centerY" id="iUR-ik-OJS"/>
+                            <constraint firstItem="WzP-Dj-OV3" firstAttribute="centerX" secondItem="9mf-3j-puD" secondAttribute="centerX" id="xef-jN-hXz"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Result" id="JZa-e6-f5S"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vqE-0Y-IiD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1804" y="123"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="fzA-tR-gdi">
