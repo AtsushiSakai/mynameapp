@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D87B97F01E8E1C2800313E4E /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87B97EF1E8E1C2800313E4E /* ResultViewController.swift */; };
 		D8E1AB001E8B8AC60002FC52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E1AAFF1E8B8AC60002FC52 /* AppDelegate.swift */; };
 		D8E1AB021E8B8AC60002FC52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E1AB011E8B8AC60002FC52 /* ViewController.swift */; };
 		D8E1AB051E8B8AC60002FC52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8E1AB031E8B8AC60002FC52 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D87B97EF1E8E1C2800313E4E /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		D8E1AAFC1E8B8AC60002FC52 /* mynameapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mynameapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8E1AAFF1E8B8AC60002FC52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8E1AB011E8B8AC60002FC52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				D8E1AAFF1E8B8AC60002FC52 /* AppDelegate.swift */,
 				D8E1AB011E8B8AC60002FC52 /* ViewController.swift */,
+				D87B97EF1E8E1C2800313E4E /* ResultViewController.swift */,
 				D8E1AB031E8B8AC60002FC52 /* Main.storyboard */,
 				D8E1AB061E8B8AC60002FC52 /* Assets.xcassets */,
 				D8E1AB081E8B8AC60002FC52 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				D8E1AB021E8B8AC60002FC52 /* ViewController.swift in Sources */,
 				D8E1AB001E8B8AC60002FC52 /* AppDelegate.swift in Sources */,
+				D87B97F01E8E1C2800313E4E /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

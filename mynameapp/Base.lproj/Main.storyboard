@@ -60,7 +60,7 @@
         <!--Result-->
         <scene sceneID="YVg-q3-mH4">
             <objects>
-                <viewController id="A7Q-ku-xUg" sceneMemberID="viewController">
+                <viewController id="A7Q-ku-xUg" customClass="ResultViewController" customModule="mynameapp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4OX-gb-skW"/>
                         <viewControllerLayoutGuide type="bottom" id="jc2-Rg-orc"/>
