@@ -10,9 +10,11 @@ import UIKit
 
 class ResultViewController: UIViewController {
 
+    var myname: String = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        // print(myname)
         // Do any additional setup after loading the view.
     }
 

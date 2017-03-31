@@ -52,6 +52,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Name Score" id="3Xq-O1-sFT"/>
+                    <connections>
+                        <outlet property="nameText" destination="9xW-UK-Y8V" id="WWb-i7-7nI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
