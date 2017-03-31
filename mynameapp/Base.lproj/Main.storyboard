@@ -94,6 +94,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Result" id="JZa-e6-f5S"/>
+                    <connections>
+                        <outlet property="nameLabel" destination="EQs-Gq-4hK" id="DVw-pF-uMg"/>
+                        <outlet property="scoreLabel" destination="WzP-Dj-OV3" id="RZP-R5-KoF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vqE-0Y-IiD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
