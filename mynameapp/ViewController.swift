@@ -8,12 +8,20 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var nameText: UITextField!
+    @IBOutlet weak var sendbutton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        nameText.delegate = self
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        self.sendbutton.sendActions(for: .touchUpInside)
+        return true
     }
 
     override func didReceiveMemoryWarning() {
