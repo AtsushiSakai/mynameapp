@@ -21,11 +21,20 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        self.nameText.text = ""
+    }
     
     override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
         
         if identifier == "showResult" {
             guard self.nameText.text != "" else {
+                let alertController = UIAlertController(title: "Error", message: "Please enter your name", preferredStyle: .alert)
+                let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+                alertController.addAction(defaultAction)
+                self.present(alertController, animated: true, completion: nil)
                 return false
             }
             return true
@@ -40,6 +49,7 @@ class ViewController: UIViewController {
         if identifier == "showResult" {
             let resultVC = segue.destination as! ResultViewController
             resultVC.myname = self.nameText.text!
+            self.nameText.resignFirstResponder()
         }
     }
 }
